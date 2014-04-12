@@ -7,7 +7,7 @@ Persistence engine using plain text docs.
 
 ####Extending from Entity
 
-```
+```java
 import jpersistence.Entity;
 
 public class Person extends Entity {
@@ -32,7 +32,7 @@ public class Person extends Entity {
 
 ####Testing it
 
-```
+```java
 import static org.junit.Assert.*;
 
 import jpersistence.EntityDao;
